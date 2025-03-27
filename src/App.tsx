@@ -14,11 +14,7 @@ function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-sm border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
-            <div className="flex-shrink-0">
-              <img src="msec3.png" alt="MSEC Logo" className="h-16 w-auto" />
-            </div>
-
+          <div className="flex items-center justify-end h-20">
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden text-white hover:text-cyan-400 transition"
